@@ -1,6 +1,8 @@
 User-agent: *
 Allow: /
 
-# Sitemap 必须是绝对 URL（规范要求）；相对路径多数爬虫会忽略。
-# 换域名时改这里一处，并与 astro.config.mjs 的 DEFAULT_SITE 保持一致。
-Sitemap: https://6st1svrof-liwenyawiki-3r3y2wu.maozi.io/sitemap.xml
+# 视频库未公开期间，详情页不进站内搜索索引（Pagefind），
+# 但本文件不额外封禁：视频页对搜索引擎是开放的，只是当前没有入口。
+# 详见 /about 的板块开关说明。
+
+Sitemap: https://bdydgz114514.github.io/sitemap.xml
